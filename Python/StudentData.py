@@ -1,5 +1,5 @@
 from Student import Student
-from db_queries import fetch_query, execute_query
+from Python.db_queries import fetch_query, execute_query
 from ReviewData import getReview
 
 def registerStudent():

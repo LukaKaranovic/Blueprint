@@ -1,4 +1,4 @@
-from db_queries import fetch_query, execute_query
+from Python.db_queries import fetch_query, execute_query
 from Review import Review
 from ReviewData import getReview, findNextID
 from Course import Course
