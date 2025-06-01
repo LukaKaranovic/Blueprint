@@ -1,8 +1,8 @@
-from Student import Student
-from db_queries import *
-from ReviewData import getReview
-from Review import Review
-from AnnouncementData import getReactions, getAnnouncement
+from .Student import Student
+from .db_queries import *
+from .ReviewData import getReview
+from .Review import Review
+from .AnnouncementData import getReactions, getAnnouncement
 import hashlib
 import time
 

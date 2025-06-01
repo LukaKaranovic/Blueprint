@@ -1,5 +1,5 @@
-from Review import Review
-from ReviewData import *
+from .Review import Review
+from .ReviewData import *
 
 class Course():
     """

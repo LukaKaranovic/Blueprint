@@ -1,5 +1,5 @@
-from db_queries import fetch_query, execute_query
-from Review import Review
+from .db_queries import fetch_query, execute_query
+from .Review import Review
     
 def deleteReview(id: int): # deletes a review given an id
     """

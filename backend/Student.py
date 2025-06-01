@@ -1,7 +1,7 @@
-from Course import Course
-from Review import Review
-from CourseData import writeReview, getCourse, checkCourseID
-from ReviewData import getStuReview, updateReview
+from .Course import Course
+from .Review import Review
+from .CourseData import writeReview, getCourse, checkCourseID
+from .ReviewData import getStuReview, updateReview
 from datetime import datetime
 import hashlib
 

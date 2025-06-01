@@ -1,6 +1,6 @@
-from Course import Course
-from CourseData import *
-from db_queries import *
+from .Course import Course
+from .CourseData import *
+from .db_queries import *
 
 def getCoursesTaught(facID: int) -> list[Course]:
     """

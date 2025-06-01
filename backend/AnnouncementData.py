@@ -1,5 +1,5 @@
-from Announcement import Announcement
-from db_queries import *
+from .Announcement import Announcement
+from .db_queries import *
 from datetime import datetime
 
 def postAnnouncement(ann: Announcement, facID: int):

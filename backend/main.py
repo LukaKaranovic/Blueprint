@@ -1,14 +1,14 @@
-from Announcement import *
-from AnnouncementData import *
-from Review import *
-from ReviewData import *
-from Course import *
-from CourseData import *
-from Student import *
-from StudentData import *
-from Faculty import *
-from FacultyData import *
-from CoursesTaughtData import *
+from .Announcement import *
+from .AnnouncementData import *
+from .Review import *
+from .ReviewData import *
+from .Course import *
+from .CourseData import *
+from .Student import *
+from .StudentData import *
+from .Faculty import *
+from .FacultyData import *
+from .CoursesTaughtData import *
 from datetime import datetime
 import time
 

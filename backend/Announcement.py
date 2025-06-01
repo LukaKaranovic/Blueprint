@@ -1,5 +1,5 @@
 from datetime import datetime
-from CourseData import checkCourseID
+from .CourseData import checkCourseID
 
 class Announcement():
     def __init__(self, id: int = 0, text: str = "", date: str = "", cid: str = "", reactions = 0):

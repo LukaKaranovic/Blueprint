@@ -1,8 +1,8 @@
-from Course import Course
-from CourseData import getCourse, updateCourse, checkCourseID, addCourse
-from Announcement import Announcement
-from AnnouncementData import postAnnouncement, getAnnouncement, updateEditHistory
-from CoursesTaughtData import addCoursesTaught, delCoursesTaught
+from .Course import Course
+from .CourseData import getCourse, updateCourse, checkCourseID, addCourse
+from .Announcement import Announcement
+from .AnnouncementData import postAnnouncement, getAnnouncement, updateEditHistory
+from .CoursesTaughtData import addCoursesTaught, delCoursesTaught
 import hashlib
 
 class FacultyMember():

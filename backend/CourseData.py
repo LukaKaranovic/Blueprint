@@ -1,7 +1,7 @@
-from db_queries import *
-from Review import Review
-from ReviewData import getReview, findNextID
-from Course import Course
+from .db_queries import *
+from .Review import Review
+from .ReviewData import getReview, findNextID
+from .Course import Course
 
 
 def writeReview(r: Review, cid: str, stuID: int):
